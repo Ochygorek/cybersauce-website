@@ -1,0 +1,28 @@
+---
+  title: "Hide information in a plain sight"
+  date: "August 4th 2024"
+  description: "Steganography is the practice of concealing information within another message or physical object to avoid detection. Steganography can be used to..."
+  tag: "Steganography"
+  thumbnail: "2.png"
+  color: "#191C1E"
+  link: ""
+---
+
+## H2
+
+```
+// get posts for display
+export const getPost = async (limit?: number): Promise<PostMetadata[]> => {
+  const files = fs.readdirSync(rootDir);
+  const posts = files.map((file) => getPostMetadata(file));
+
+  // if there is a limit, return just the number of posts that are the limit
+  if (limit) {
+    return posts.splice(0, limit)
+  }
+
+  return posts;
+}
+```
+
+hide-information-in-a-plain-sight

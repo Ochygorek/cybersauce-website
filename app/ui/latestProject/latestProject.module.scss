@@ -1,0 +1,24 @@
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 3.25rem 5rem;
+  width: 100%;
+
+  border-bottom: 1px solid #C2C4C7;
+  color: #C2C4C7;
+
+  cursor: pointer;
+  transition: all 0.2s linear;
+
+  h2 {
+    font-size: 6rem;
+    line-height: 100%;
+  }
+}
+
+.cont:hover {
+  color: #FDFFFF;
+  border-bottom: .25rem solid #FDFFFF;
+}
