@@ -1,14 +1,14 @@
 import React, { useEffect, useRef } from 'react'
 import styles from './modal.module.scss'
 import Image from 'next/image'
-import { blogType } from '@/app/utils/blog/display'
+import { blogTypeModal } from '@/app/utils/blog/display'
 import { motion } from 'framer-motion'
 import gsap from 'gsap'
 import { scaleAnimationPopUp } from '@/app/utils/animations'
 
 interface importProps {
   modal: any
-  blogs: blogType[]
+  blogs: blogTypeModal[]
 }
 
 function Modal({modal, blogs}: importProps) {

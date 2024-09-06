@@ -9,6 +9,16 @@ export interface blogType {
   slug: string
 }
 
+export interface blogTypeModal {
+  title: string
+  date: string
+  description: string
+  tag: string
+  thumbnail: string
+  color: string
+  link: string
+}
+
 /*
   thumbnail: 400px x 225
   color will be the background of a thumbnail
