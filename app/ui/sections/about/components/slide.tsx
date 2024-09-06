@@ -14,16 +14,16 @@ export const Slide = (props: any) => {
   return (
     <motion.div style={{x: translateX, left: props.left}} className="relative flex whitespace-nowrap">
       <Phrase src={props.src}>
-        {props.children}
+        {props.text}
       </Phrase>
       <Phrase src={props.src}>
-        {props.children}
+        {props.text}
       </Phrase>
       <Phrase src={props.src}>
-        {props.children}
+        {props.text}
       </Phrase>
       <Phrase src={props.src}>
-        {props.children}
+        {props.text}
       </Phrase>
     </motion.div>
   )

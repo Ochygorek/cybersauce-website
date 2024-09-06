@@ -42,9 +42,9 @@ function About() {
         className={styles.about}
       >
         <div ref={container} className="overflow-hidden">
-          <Slide src={'circle'} children='Hacker' direction={'left'} left={"-10%"} progress={scrollYProgress}/>
-          <Slide src={'square'} children='Forensics' direction={'right'} left={"-25%"} progress={scrollYProgress}/>
-          <Slide src={'hexagon'} children='Pentesting' direction={'left'}  left={"-65%"} progress={scrollYProgress}/>
+          <Slide src={'circle'} text='Hacker' direction={'left'} left={"-10%"} progress={scrollYProgress}/>
+          <Slide src={'square'} text='Forensics' direction={'right'} left={"-25%"} progress={scrollYProgress}/>
+          <Slide src={'hexagon'} text='Pentesting' direction={'left'}  left={"-65%"} progress={scrollYProgress}/>
         </div>
         <Link href={'/about'} className={styles.shadow4}></Link>
         <Link href={'/about'} className={styles.shadow5}></Link>
