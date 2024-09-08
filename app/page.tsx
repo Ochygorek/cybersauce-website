@@ -2,6 +2,7 @@
 
 import { AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
+import styles from './page.module.scss'
 import Preloader from "./ui/sections/preloader/preloader";
 import Lenis from "lenis";
 import Hero from "./ui/sections/hero/hero";
@@ -37,16 +38,18 @@ export default function Home() {
     )()
   }, [])
   return (
-    <main>
-      <AnimatePresence mode='wait'>
-        {isLoading && <Preloader />}
-      </AnimatePresence>
-      <Hero />
-      <About />
-      <Cyber />
-      <Blog />
-      <Resources />
-      <Footer />
-    </main>
+    <div className={styles.root}>
+      <main className={styles.main}>
+        <AnimatePresence mode='wait'>
+          {isLoading && <Preloader />}
+        </AnimatePresence>
+        <Hero />
+        <About />
+        <Cyber />
+        <Blog />
+        <Resources />
+        <Footer />
+      </main>
+    </div>
   );
 }
