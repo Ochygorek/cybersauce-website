@@ -45,7 +45,7 @@
 
     .cont {
       height: 100%;
-      padding: 12vh;
+      padding: 120px;
       box-sizing: border-box;
 
       .body {
@@ -53,7 +53,7 @@
         align-items: start;
         justify-content: end;
         flex-direction: column;
-        gap: 3vh;
+        gap: 2rem;
         height: 100%;
 
         .cc {
@@ -65,7 +65,8 @@
           .indie {
             color: var(--font-dimm-hidden);
             line-height: 100%;
-            font-size: 12vh;
+            // font-size: 12vh;
+            font-size: clamp(1.953125rem, 0.5786rem + 6.8726vw, 7.451171875rem);
             transition: all 0.2s linear;
           }
   
@@ -105,4 +106,18 @@
   border-radius: 0.25rem;
   backdrop-filter: blur(20px);
   background-color: rgba($color: #000305, $alpha: .2);
+}
+
+@media (max-width: 800px) {
+  .nav {
+    .links {
+      .cont {
+        padding: 60px;
+
+        .body {
+          gap: 1rem;
+        }
+      }
+    }
+  }
 }
