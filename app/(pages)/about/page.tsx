@@ -1,24 +1,15 @@
-'use client'
-
 import React, { useEffect } from 'react'
 import styles from './about.module.scss'
 import Subheading from '@/app/ui/components/subheading/subheading'
 import Paragraph from '@/app/ui/components/paragraph/paragraph'
 import ImageParallax from '@/app/ui/components/image-parallax/imageParallax'
-import Lenis from 'lenis'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'About',
+}
 
 function About() {
-  useEffect(() => {
-    const lenis = new Lenis()
-
-    function raf(time: any) {
-      lenis.raf(time)
-      requestAnimationFrame(raf)
-    }
-
-    requestAnimationFrame(raf)
-  }, [])
-
   return (
     <div className={styles.root}>
       <main className={styles.main}>
@@ -64,6 +55,7 @@ function About() {
           </Paragraph>
         </article>
       </main>
+      <div className={styles.end}></div>
     </div>
   )
 }

@@ -3,6 +3,11 @@ import styles from './blog.module.scss'
 // import { blogDisplay } from '@/app/utils/blog/display'
 import BlogCard from '@/app/ui/components/blog-card/blogCard'
 import { getPost } from '@/app/utils/blog/actions'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Blog',
+}
 
 async function Blog() {
   const post = await getPost()

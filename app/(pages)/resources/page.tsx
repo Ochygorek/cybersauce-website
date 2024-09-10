@@ -3,6 +3,11 @@ import Subheading from '@/app/ui/components/subheading/subheading'
 import React from 'react'
 import styles from './resources.module.scss'
 import SourceWidget from '@/app/ui/components/source-widget/sourceWidget'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Resources',
+}
 
 function Resources() {
   return (
@@ -30,6 +35,7 @@ function Resources() {
           </article>
         </section>
       </main>
+      <div className={styles.end}></div>
     </div>
   )
 }

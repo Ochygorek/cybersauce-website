@@ -6,7 +6,7 @@ export interface hobbyDataType {
 
 export const hobbyData = [
   {
-    src: 'test1.png',
+    src: 'test4.png',
     caption: '1',
     alt: 'awd',
   },
@@ -23,6 +23,11 @@ export const hobbyData = [
   {
     src: 'test3.png',
     caption: '4',
+    alt: 'awd',
+  },
+  {
+    src: 'test5.png',
+    caption: '5',
     alt: 'awd',
   },
 ]
