@@ -10,3 +10,9 @@
 
   max-width: 760px;
 }
+
+@media (max-width: 500px) {
+  .paragraph {
+    font-size: 1rem;
+  }
+}

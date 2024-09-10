@@ -18,8 +18,10 @@
         padding-top: 5rem;
 
         h1 {
-          font-size: 9.313rem;
+          // font-size: 9.313rem;
+          font-size: clamp(3.051875rem, 1.4864rem + 7.8276vw, 9.31396484375rem);
           line-height: 100%;
+          margin-top: 40px;
         }
 
         .shadow9 {

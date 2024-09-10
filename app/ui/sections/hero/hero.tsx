@@ -6,54 +6,56 @@ import CyberMainIcon from '../../icons/cyberMainIcon'
 
 function Hero() {
   return (
-    <section className={styles.hero}>
-      <div className={styles.heading}>
-        <div className={styles.h1}>
-          <h1>CyberSauce</h1>
-          <div className={styles.shadow1}></div>
-          <div className={styles.shadow2}></div>
-        </div>
-        <div className={styles.p}>
-          <p>Cyber security expert</p>
-          <div className={styles.shadow3}></div>
-        </div>
-      </div>
-      <div className={styles.social}>
-        <div className={styles.left}>
-          <div className={styles.cyber}>
-            <CyberMainIcon />
-            <div className={styles.shadow6}></div>
+    <div className={styles.root}>
+      <section className={styles.hero}>
+        <div className={styles.heading}>
+          <div className={styles.h1}>
+            <h1>CyberSauce</h1>
+            <div className={styles.shadow1}></div>
+            <div className={styles.shadow2}></div>
           </div>
-          <div className={styles.cont}>
-            <div>
-              <p className={styles.span}>4</p>
-              <p>Years of</p>
-              <p>Experience</p>
-              <PlusIcon />
-            </div>
-            <div>
-              <p className={styles.span}>6</p>
-              <p>Official</p>
-              <p>Certifications</p>
-              <PlusIcon />
-            </div>
-            <div>
-              <p className={styles.span}>3</p>
-              <p>Successful</p>
-              <p>CTFs</p>
-              <PlusIcon />
-            </div>
+          <div className={styles.p}>
+            <p>Cyber security expert</p>
+            <div className={styles.shadow3}></div>
           </div>
         </div>
-        <div className={styles.right}>
-          {/* <Image
-            src={''}
-            alt=""
-            fill
-          /> */}
+        <div className={styles.social}>
+          <div className={styles.left}>
+            <div className={styles.cyber}>
+              <CyberMainIcon className={styles.cimg} />
+              <div className={styles.shadow6}></div>
+            </div>
+            <div className={styles.cont}>
+              <div>
+                <p className={styles.span}>4</p>
+                <p>Years of</p>
+                <p>Experience</p>
+                <PlusIcon />
+              </div>
+              <div>
+                <p className={styles.span}>6</p>
+                <p>Official</p>
+                <p>Certifications</p>
+                <PlusIcon />
+              </div>
+              <div>
+                <p className={styles.span}>3</p>
+                <p>Successful</p>
+                <p>CTFs</p>
+                <PlusIcon />
+              </div>
+            </div>
+          </div>
+          <div className={styles.right}>
+            {/* <Image
+              src={''}
+              alt=""
+              fill
+            /> */}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   )
 }
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300..700&display=swap');
+
 .root {
   width: 100%;
 
@@ -13,8 +15,10 @@
       position: relative;
   
       h1 {
-        font-size: 9.313rem;
+        // font-size: 9.313rem;
+        font-size: clamp(3.051875rem, 1.4864rem + 7.8276vw, 9.31396484375rem);
         line-height: 100%;
+        margin-top: 40px;
       }
   
       .shadow15 {
@@ -85,10 +89,21 @@
         opacity: 0;
         transform: scale(0);
         overflow-x: hidden;
+        overflow-y: scroll !important;
         z-index: 4;
 
+        img {
+          height: fit-content;
+        }
+
         p {
-          margin-top: 1rem;
+          margin: 1rem 0 1rem 0;
+          font-family: 'pontano sans', Helvetica, Arial, sans-serif;
+          font-size: 1.25rem;
+          line-height: 124%;
+          letter-spacing: 1px;
+          color: var(--font-p);
+        
           max-width: 760px;
         }
       }
@@ -118,6 +133,23 @@
     .main {
       .gallery {
         grid-template-columns: 1fr;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 500px) {
+  .root {
+    .main {
+      .cont {
+        .shadow15 {
+          left: 5%;
+        }
+
+        .shadow16 {
+          right: 5%;
+        }
       }
     }
   }

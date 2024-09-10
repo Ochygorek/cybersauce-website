@@ -10,16 +10,18 @@ function Blog() {
   const [modal, setModal] = useState({active: false, index: 0})
 
   return (
-    <section className={styles.blogs}>
-      <div className={styles.slides}>
-        {
-          reversedBlogDisplayLimitFour.map((current, i) => (
-            <LatestBlog key={i} i={i} link={current.link} title={current.title} setModal={setModal} />
-          ))
-        }
-      </div>
-      <Modal modal={modal} blogs={reversedBlogDisplayLimitFour} />
-    </section>
+    <div className={styles.root}>
+      <section className={styles.blogs}>
+        <div className={styles.slides}>
+          {
+            reversedBlogDisplayLimitFour.map((current, i) => (
+              <LatestBlog key={i} i={i} link={current.link} title={current.title} setModal={setModal} />
+            ))
+          }
+        </div>
+        <Modal modal={modal} blogs={reversedBlogDisplayLimitFour} />
+      </section>
+    </div>
   )
 }
 

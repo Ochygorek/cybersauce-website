@@ -5,3 +5,15 @@
 
   max-width: 760px;
 }
+
+@media (max-width: 800px) {
+  .subheading {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .subheading {
+    font-size: 2rem;
+  }
+}

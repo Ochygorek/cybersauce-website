@@ -5,14 +5,16 @@ import CyberRightIcon from '../../icons/cyberRightIcon'
 
 function Cyber() {
   return (
-    <div className={styles.cyber}>
-      <div className={styles.one}>
-        <CyberLeftIcon />
-        <div className={styles.shadow7}></div>
-      </div>
-      <div className={styles.two}>
-        <CyberRightIcon />
-        <div className={styles.shadow8}></div>
+    <div className={styles.root}>
+      <div className={styles.cyber}>
+        <div className={styles.one}>
+          <CyberLeftIcon className={styles.left}/>
+          <div className={styles.shadow7}></div>
+        </div>
+        <div className={styles.two}>
+          <CyberRightIcon className={styles.right}/>
+          <div className={styles.shadow8}></div>
+        </div>
       </div>
     </div>
   )

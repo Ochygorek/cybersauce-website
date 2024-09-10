@@ -4,7 +4,7 @@ import CircleIcon from '@/app/ui/icons/circleIcon';
 import HexagonIcon from '@/app/ui/icons/hexagonIcon';
 import SquareIcon from '@/app/ui/icons/squareIcon';
 import { useTransform, motion } from 'framer-motion';
-import Image from 'next/image'
+import styles from './slide.module.scss'
 import React, { ReactNode } from 'react'
 
 export const Slide = (props: any) => {
@@ -12,7 +12,7 @@ export const Slide = (props: any) => {
   const translateX = useTransform(props.progress, [0, 1], [150 * direction, -150 * direction])
 
   return (
-    <motion.div style={{x: translateX, left: props.left}} className="relative flex whitespace-nowrap">
+    <motion.div style={{x: translateX, left: props.left}} className={styles.slide}>
       <Phrase src={props.src}>
         {props.text}
       </Phrase>
@@ -31,17 +31,17 @@ export const Slide = (props: any) => {
 
 const Phrase = ({src, children}: {src: string, children: ReactNode}) => {
   return (
-    <div className={'px-5 flex gap-5 items-center justify-center'}>
-      <h2 className='text-[12vh]'>{children}</h2>
-      <span className="relative h-full flex items-center px-[4.75rem]">
+    <div className={styles.phrase}>
+      <h2 className={styles.text}>{children}</h2>
+      <span className={styles.span}>
           {src === 'circle' && 
-            <CircleIcon />
+            <CircleIcon  className={styles.circle}/>
           }
           {src === 'square' && 
-            <SquareIcon />
+            <SquareIcon  className={styles.square}/>
           }
           {src === 'hexagon' && 
-            <HexagonIcon />
+            <HexagonIcon  className={styles.hexagon}/>
           }
       </span>
     </div>

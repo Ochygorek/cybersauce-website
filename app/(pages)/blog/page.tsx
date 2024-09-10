@@ -17,7 +17,9 @@ async function Blog() {
         </div>
         <section className={styles.blogs}>
           {post.map((post, i) => (
-            <BlogCard key={i} {...post} />
+            <div key={i} className={styles.post}>
+              <BlogCard {...post} />
+            </div>
           ))}
         </section>
       </main>

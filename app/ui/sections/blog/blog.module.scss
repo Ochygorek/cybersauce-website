@@ -1,12 +1,16 @@
-.blogs {
-  position: relative;
+.root {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 12rem;
-  
-  .slides {
-    width: 75%;
+
+  .blogs {
+    position: relative;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7rem auto 0 auto;
+    
+    .slides {
+      width: 80%;
+    }
   }
 }
