@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import styles from './about.module.scss'
 import Subheading from '@/app/ui/components/subheading/subheading'
 import Paragraph from '@/app/ui/components/paragraph/paragraph'

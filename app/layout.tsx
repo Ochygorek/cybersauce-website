@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     ],
     type: 'website',
   },
-  keywords: [],
+  keywords: [], // keywords for SEO
   twitter: {
     card: 'summary_large_image',
     title: 'CyberSauce',
