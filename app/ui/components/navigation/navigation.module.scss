@@ -45,7 +45,7 @@
 
     .cont {
       height: 100%;
-      padding: 80px 120px;
+      padding: 80px 80px;
       box-sizing: border-box;
 
       .body {
@@ -53,7 +53,7 @@
         align-items: start;
         justify-content: end;
         flex-direction: column;
-        gap: 2rem;
+        gap: 1.5rem;
         height: 100%;
 
         .cc {
@@ -66,7 +66,8 @@
             color: var(--font-dimm-hidden);
             line-height: 100%;
             // font-size: 12vh;
-            font-size: clamp(1.953125rem, 0.5786rem + 6.8726vw, 7.451171875rem);
+            // font-size: clamp(1.953125rem, 0.5786rem + 6.8726vw, 7.451171875rem);
+            font-size: 2.5rem;
             transition: all 0.2s linear;
           }
   
@@ -80,7 +81,7 @@
 }
 
 .change > path {
-  fill: black;
+  fill: var(--font-dimm);
   transition: all 1.5s linear;
 }
 
@@ -113,6 +114,60 @@
     .links {
       .cont {
         padding: 60px;
+
+        .body {
+          gap: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .change > path {
+    fill: var(--font-dark);
+  }
+}
+
+@media (max-width: 500px) {
+  .nav {
+    .links {
+      .cont {
+        padding: 60px 120px;
+
+        .body {
+          gap: 1rem;
+
+          .cc {
+            .indie {
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .nav {
+    .links {
+      .cont {
+        padding: 60px 180px;
+
+        .body {
+          gap: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .nav {
+    .links {
+      .cont {
+        padding: 60px 220px;
 
         .body {
           gap: 1rem;
