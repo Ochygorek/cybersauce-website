@@ -1,7 +1,7 @@
 export const variants = {
   open: {
-    width: '480px',
-    height: '650px',
+    width: '100%',
+    height: '100vh',
     top: 0,
     right: 0,
     borderRadius: 0,
