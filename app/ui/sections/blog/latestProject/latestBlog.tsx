@@ -5,14 +5,14 @@ import Link from 'next/link'
 
 interface importProps {
   i: number
-  title: string
+  title?: string
   setModal: any
   link: string
 }
 
 function LatestBlog({i, title, setModal, link}: importProps) {
   return (
-    <Link href={`/blog/${link}`} className={styles.cont} onMouseEnter={() => setModal({active: true, index: i})} onMouseLeave={() => setModal({active: false, index: i})}>
+    <Link href={link} className={styles.cont} onMouseEnter={() => setModal({active: true, index: i})} onMouseLeave={() => setModal({active: false, index: i})}>
       <h2>{title}</h2>
       <CircleDimmIcon />
     </Link>

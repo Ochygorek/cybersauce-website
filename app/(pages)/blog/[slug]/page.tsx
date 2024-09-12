@@ -41,7 +41,7 @@ async function Post({params}: {params: {slug: string}}) {
             objectFit="cover"
           />
         </div>
-        <section className={`prose prose-invert prose-pre:bg-neutral-800 !max-w-[800px] ${styles.section}`}>
+        <section className={`prose prose-invert prose-pre:bg-neutral-800 ${styles.section}`}>
           <MDXContent source={content}/>
         </section>
       </main>

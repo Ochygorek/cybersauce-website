@@ -4,7 +4,7 @@ import React from 'react'
 import styles from './blogCard.module.scss'
 import Link from 'next/link'
 
-function BlogCard({title, date, description, tag, thumbnail, slug}: blogType) {
+function BlogCard({title, date, description, tag, thumbnail, color, link, slug}: blogType) {
   return (
     <div className={styles.wrapper}>
       <Link href={`/blog/${slug}`} className={styles.link}>
