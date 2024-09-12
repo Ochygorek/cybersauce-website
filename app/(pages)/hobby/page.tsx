@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styles from './hobby.module.scss'
 import HobbyGallery from '@/app/ui/components/hobby-gallery/hobbyGallery'
 import { Metadata } from 'next'
