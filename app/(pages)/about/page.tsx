@@ -4,6 +4,7 @@ import Subheading from '@/app/ui/components/subheading/subheading'
 import Paragraph from '@/app/ui/components/paragraph/paragraph'
 import ImageParallax from '@/app/ui/components/image-parallax/imageParallax'
 import { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'About',
@@ -20,11 +21,34 @@ function About() {
             <div className={styles.shadow10}></div>
           </div>
           <div className={styles.img}>
-            {/* <Image 
-              src={''}
-              alt={''}
-              fill
-            /> */}
+            <Image 
+              src={'/images/about/self/main.png'}
+              alt={'The main about image.'}
+              width={928}
+              height={1114}
+            />
+            <Image 
+              src={'/images/about/self/bg.png'}
+              alt={'Background image.'}
+              width={768}
+              height={407}
+              className={styles.bg}
+            />
+            <div className={styles.shadow21}></div>
+            <div className={styles.shadow22}></div>
+            <div className={styles.shadow23}></div>
+            <div className={styles.cont}>
+              <span>C</span>
+              <span>y</span>
+              <span>b</span>
+              <span>e</span>
+              <span>r</span>
+              <span>S</span>
+              <span>a</span>
+              <span>u</span>
+              <span>c</span>
+              <span>e</span>
+            </div>
           </div>
         </section>
         <article className={styles.article}>

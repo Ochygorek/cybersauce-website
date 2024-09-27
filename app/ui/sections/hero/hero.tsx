@@ -47,11 +47,17 @@ function Hero() {
             </div>
           </div>
           <div className={styles.right}>
-            {/* <Image
-              src={''}
-              alt=""
-              fill
-            /> */}
+            <div className={styles.image}>
+              <Image
+                src={'/images/home/main.png'}
+                alt="Main page photo."
+                width={928}
+                height={1114}
+              />
+            </div>
+            <div className={styles.shadow17}></div>
+            <div className={styles.shadow18}></div>
+            <div className={styles.shadow19}></div>
           </div>
         </div>
       </section>
