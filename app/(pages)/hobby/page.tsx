@@ -16,6 +16,7 @@ function Hobby() {
           <div className={styles.shadow15}></div>
           <div className={styles.shadow16}></div>
         </div>
+        {/* update hobbydata in the /app/utils/hobby/content.ts file */}
         <HobbyGallery />
       </main>
     </div>

@@ -21,16 +21,9 @@ function Resources() {
         <section>
           <article>
             <Subheading>Subheading</Subheading>
-            <Paragraph>A text is a passage of words that conveys a set of meanings to the person who is reading it. It’s a body of written work, in various forms and structures, that can be words, phrases and sentences that piece together a passage of written work.</Paragraph>
-            <SourceWidget href='/resources' blueT='Stuff' grayT='more stuff' />
-            <Paragraph>A text is a passage of words that conveys a set of meanings to the person who is reading it. It’s a body of written work, in various forms and structures, that can be words, phrases and sentences that piece together a passage of written work.</Paragraph>
-            <SourceWidget href='/resources' blueT='Stuff' grayT='more stuff' />
-          </article>
-          <article>
-            <Subheading>Subheading</Subheading>
-            <Paragraph>A text is a passage of words that conveys a set of meanings to the person who is reading it. It’s a body of written work, in various forms and structures, that can be words, phrases and sentences that piece together a passage of written work.</Paragraph>
-            <SourceWidget href='/resources' blueT='Stuff' grayT='more stuff' />
-            <Paragraph>A text is a passage of words that conveys a set of meanings to the person who is reading it. It’s a body of written work, in various forms and structures, that can be words, phrases and sentences that piece together a passage of written work.</Paragraph>
+            <Paragraph>
+              Here goes paragraph.
+            </Paragraph>
             <SourceWidget href='/resources' blueT='Stuff' grayT='more stuff' />
           </article>
         </section>
