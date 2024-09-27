@@ -4,6 +4,10 @@ export interface hobbyDataType {
   alt: string
 }
 
+/*
+  src: the image in the /public/images/hobby folder
+*/
+
 export const hobbyData = [
   {
     src: '',

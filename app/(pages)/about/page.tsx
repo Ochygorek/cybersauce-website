@@ -58,6 +58,12 @@ function About() {
           </Paragraph>
         </article>
         <section>
+          {/* 
+            images should be in the /public/images/about folder
+
+            UNCOMMENT the ImageParallax component when ready for production
+          */}
+
           {/* <ImageParallax imagesArray={['test1.png', 'test2.png', 'test3.png']}/> */}
         </section>
       </main>

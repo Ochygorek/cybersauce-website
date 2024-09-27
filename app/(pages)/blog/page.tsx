@@ -23,9 +23,7 @@ async function Blog() {
         <section className={styles.blogs}>
           {post.map((post, i) => (
             <div key={i} className={styles.post}>
-              {/* uncomment this BlogCard when you have content ready */}
-
-              {/* <BlogCard {...post} /> */}
+              <BlogCard {...post} />
             </div>
           ))}
         </section>
