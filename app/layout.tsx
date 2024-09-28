@@ -10,14 +10,14 @@ export const metadata: Metadata = {
     template: '%s | CyberSauce',
     default: 'CyberSauce'
   },
-  description: "", // description
+  description: "Explore the portfolio of CyberSauce, a cybersecurity specialist specializing in digital forensics, ethical hacking, and penetration testing. Blog, case studies, and insights.", // description
   openGraph: {
     title: {
       template: '%s | CyberSauce',
       default: 'CyberSauce'
     },
     url: 'https://cybersauce-website.vercel.app/', // production url
-    description: "", // description
+    description: "Explore the portfolio of CyberSauce, a cybersecurity specialist specializing in digital forensics, ethical hacking, and penetration testing. Blog, case studies, and insights.", // description
     siteName: 'CyberSauce',
     images: [
       {
@@ -28,11 +28,11 @@ export const metadata: Metadata = {
     ],
     type: 'website',
   },
-  keywords: [], // keywords for SEO
+  keywords: ["cybersecurity", "digital forensics", "penetration testing", "pentesting", "ethical hacking", "incident response", "cyber defense", "vulnerability assessment", "security audits", "threat analysis", "malware analysis", "network security", "security research", "infosec", "cyber forensics"], // keywords for SEO
   twitter: {
     card: 'summary_large_image',
     title: 'CyberSauce',
-    description: "", // description
+    description: "Explore the portfolio of CyberSauce, a cybersecurity specialist specializing in digital forensics, ethical hacking, and penetration testing. Blog, case studies, and insights.", // description
     creator: '@CodedByCoffeCup',
     images: ['link.jpg'], // Must be an absolute URL
   },
