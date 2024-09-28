@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   description: "Explore the portfolio of CyberSauce, a cybersecurity specialist specializing in digital forensics, ethical hacking, and penetration testing. Blog, case studies, and insights.", // description
   openGraph: {
     title: {
-      template: '%s | CyberSauce',
-      default: 'CyberSauce'
+      template: 'Cybersecurity Portfolio: Forensics & Pentesting by CyberSauce',
+      default: 'Cybersecurity Portfolio: Forensics & Pentesting by CyberSauce'
     },
     url: 'https://cybersauce-website.vercel.app/', // production url
     description: "Explore the portfolio of CyberSauce, a cybersecurity specialist specializing in digital forensics, ethical hacking, and penetration testing. Blog, case studies, and insights.", // description
-    siteName: 'CyberSauce',
+    siteName: 'Cybersecurity Portfolio: Forensics & Pentesting by CyberSauce',
     images: [
       {
         url: '/link.jpg',
