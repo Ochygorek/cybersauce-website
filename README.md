@@ -224,7 +224,7 @@ import SourceWidget from '@/app/ui/components/source-widget/sourceWidget'
 
 To use this component, follow this structure:
 
-```tsx
+```html
 <SourceWidget href='/link' blueT='Title' grayT='Subtitle' tartget={'_blank'} />
 ```
 
