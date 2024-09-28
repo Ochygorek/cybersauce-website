@@ -84,7 +84,7 @@ The Blog section, located at [/app/ui/sections/blog/blog.tsx](./app/ui/sections/
 
 Its animation includes a hover effect where each blog post lights up, and a modal appears. The modal has a background color of your choice and a thumbnail image. The modal slides up and down depending on the blog post the cursor is hovering over.
 
-You can control which blog posts are displayed by editing the [display.ts](./app/utils/blog/display.ts) file. Replace one of the current blog entries with a new one, ensuring the link matches the name of the post in the [/content/post](./content/post/) directory. More details can be found in the [Blog Post](#blog-post) section.
+You can control which blog posts are displayed by editing the [display.ts](./app/utils/blog/display.ts) file. It is essencial to have at least 4 posts ready in order for the page to work properly. Replace one of the current blog entries with a new one, **ensuring the link matches the name of the post in the [/content/post](./content/post/) directory**. More details can be found in the [Blog Post](#blog-post) section.
 
 ### Resources Section
 
@@ -126,7 +126,7 @@ import Subheading from '@/app/ui/components/subheading/subheading'
 
 To use this component, follow this structure:
 
-```tsx
+```html
 <Subheading>
   Subheading content
 </Subheading>
@@ -144,7 +144,7 @@ import Paragraph from '@/app/ui/components/paragraph/paragraph'
 
 To use this component, follow this structure:
 
-```tsx
+```html
 <Paragraph>
   Paragraph content
 </Paragraph>
@@ -164,7 +164,7 @@ import ImageParallax from '@/app/ui/components/image-parallax/imageParallax'
 
 To use this component, follow this structure:
 
-```tsx
+```html
 <ImageParallax imagesArray={['image1.png', 'image2.png', 'image3.png']}/>
 ```
 
@@ -242,7 +242,7 @@ import Subheading from '@/app/ui/components/subheading/subheading'
 
 To use this component, follow this structure:
 
-```tsx
+```html
 <Subheading>
   Subheading content
 </Subheading>
@@ -260,7 +260,7 @@ import Paragraph from '@/app/ui/components/paragraph/paragraph'
 
 To use this component, follow this structure:
 
-```tsx
+```html
 <Paragraph>
   Paragraph content
 </Paragraph>
@@ -282,4 +282,4 @@ the images **must** be in the [/public/images/hobby/](./public/images/hobby/) di
 
 -------
 
-This project and documentation was provided by [@CodedByCoffeCup](https://x.com/CodedByCoffeCup).
+This project and documentation was provided by [@CodedByCoffeCup](https://x.com/CodedByCoffeCup). If you have any questions or issues please contact me via [discord](https://discord.com) (username: donaldog5939).
