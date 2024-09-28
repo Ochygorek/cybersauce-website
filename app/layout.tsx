@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       template: '%s | CyberSauce',
       default: 'CyberSauce'
     },
-    url: 'https://developgames.vercel.app/',
+    url: 'https://cybersauce-website.vercel.app/', // production url
     description: "", // description
     siteName: 'CyberSauce',
     images: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     creator: '@CodedByCoffeCup',
     images: ['link.jpg'], // Must be an absolute URL
   },
-  metadataBase: new URL('https://developgames.vercel.app/'), // production url
+  metadataBase: new URL('https://cybersauce-website.vercel.app/'), // production url
 };
 
 export default function RootLayout({
