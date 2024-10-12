@@ -15,8 +15,8 @@ export const links = [
     link: "/resources",
     title: "Resources",
   },
-  {
-    link: "/hobby",
-    title: "Hobby",
-  },
+  // {
+  //   link: "/hobby",
+  //   title: "Hobby",
+  // },
 ]

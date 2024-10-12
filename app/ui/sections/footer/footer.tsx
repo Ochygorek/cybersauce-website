@@ -15,11 +15,11 @@ function Footer() {
           <Link href={'mailto:name@example.com'} className={styles.link1}>name@example.com</Link>
           <Link href={'https://discord.com'} target='_blank' className={styles.link2}>
             <DiscordIcon />
-            @ksauce01
+            Discord
           </Link>
           <Link href={'https://instagram.com'} target='_blank' className={styles.link3}>
           <InstagramIcon />
-            @ksauce001
+            Instagram
           </Link>
         </div>
       </div>

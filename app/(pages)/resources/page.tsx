@@ -20,8 +20,9 @@ function Resources() {
       <main className={styles.main}>
         <section>
           <article>
+            <div className={styles.divider}></div>
             <Paragraph>
-            Welcome to my curated list of tools, guides, and articles to help you navigate the digital landscape. Whether you’re just getting started or you're a seasoned pro, these resources will help you stay ahead of the game.
+            Welcome to my curated list of tools, guides, and articles to help you navigate the digital landscape. Whether you’re just getting started or you’re a seasoned pro, these resources will help you stay ahead of the game.
             </Paragraph>
           </article>
           <article>

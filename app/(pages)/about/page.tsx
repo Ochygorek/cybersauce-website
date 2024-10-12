@@ -22,7 +22,7 @@ function About() {
           </div>
           <div className={styles.img}>
             <Image 
-              src={'/images/about/self/main.png'}
+              src={'/images/about/self/main copy.png'}
               alt={'The main about image.'}
               width={928}
               height={1114}
@@ -52,6 +52,7 @@ function About() {
           </div>
         </section>
         <article className={styles.article}>
+          <div className={styles.divider}></div>
           <Paragraph>
             Hey there, I’m Jax Lawson, but in the hacker world, I go by Jax—straightforward, just like my approach to security. Growing up in California’s tech capital, I was always drawn to the world behind the screen. It started with curiosity, but it’s become my life’s passion: understanding and mastering the digital landscape.
           </Paragraph>
@@ -74,7 +75,7 @@ function About() {
         <article>
           <Subheading>What I Do</Subheading>
           <Paragraph>
-            To me, hacking isn’t about breaking things—it’s about discovering how things work. I specialize in penetration testing, cybersecurity consulting, and vulnerability research. In short, I find the holes in digital systems before anyone else does. Whether it's building secure infrastructures from the ground up or fortifying existing ones, I’m all about creating bulletproof environments for my clients.
+            To me, hacking isn’t about breaking things—it’s about discovering how things work. I specialize in penetration testing, cybersecurity consulting, and vulnerability research. In short, I find the holes in digital systems before anyone else does. Whether it’s building secure infrastructures from the ground up or fortifying existing ones, I’m all about creating bulletproof environments for my clients.
           </Paragraph>
           <Paragraph>
             I’ve worked on everything from protecting sensitive data to securing cryptocurrency exchanges, and I’ve even been known to help the occasional non-tech-savvy startup from falling prey to cyber threats. My goal? To stay one step ahead of the digital chaos and make the internet a safer place for the good guys.
@@ -100,7 +101,7 @@ function About() {
             Stay curious,
           </Paragraph>
           <Paragraph>
-            Jax "Jax" Lawson
+            Jax ’’Jax’’ Lawson
           </Paragraph>
           <Paragraph>
             Security Architect, Penetration Tester, Digital Adventurer
